@@ -1,4 +1,4 @@
-# TECHNICAL_DOCS.md – AI Smart Bug Analyzer & Fix Advisor
+# TECHNICAL_DOCS.md –  Creation of Intelligent Bug Diagnosis Platform With Fix Recommendation Assistance
 
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.109%2B-009688)](https://fastapi.tiangolo.com)
@@ -25,7 +25,7 @@
 
 ## 1. Overview
 
-**AI Smart Bug Analyzer & Fix Advisor (ASBA)** is a production-grade multi-agent system that:
+** Creation of Intelligent Bug Diagnosis Platform With Fix Recommendation Assistance** is a production-grade multi-agent system that:
 
 - Accepts bug reports via file upload or pasted text.
 - Runs a seven-stage LLM-powered analysis pipeline (triage → root cause → remediation → risk assessment → executive summary).
@@ -132,7 +132,7 @@ docker-compose -f docker/docker-compose.yml up --build
 |----------|---------|-------------|
 | `LLM_API_KEY` | *(required)* | OpenAI API key |
 | `LLM_MODEL` | `gpt-4o-mini` | LLM model name |
-| `DATABASE_URL` | `sqlite:///ai_smart_bug_analyzer...db` | SQLAlchemy database URL |
+| `DATABASE_URL` | `sqlite:/// Creation of Intelligent Bug Diagnosis Platform With Fix Recommendation Assistance...db` | SQLAlchemy database URL |
 | `CHROMA_PERSIST_DIR` | `chroma_db` | ChromaDB persistence directory |
 | `EMBEDDING_MODEL` | `sentence-transformers/all-MiniLM-L6-v2` | HuggingFace embedding model |
 | `API_PREFIX` | `/api/v1` | API URL prefix |
@@ -372,7 +372,7 @@ POST /api/v1/kb/feedback
 
 | Collection | Purpose |
 |-----------|---------|
-| `ai_smart_bug_analyzer_and_fix_advisor_bugs` | Bug knowledge base for duplicate detection & RAG |
+| ` Creation of Intelligent Bug Diagnosis Platform With Fix Recommendation Assistance` | Bug knowledge base for duplicate detection & RAG |
 | `resolved_fixes` | Fix embeddings submitted via KB feedback endpoint |
 
 ### RAG Integration (Future)
@@ -479,4 +479,4 @@ Reports are downloadable via `GET /analysis/{id}/download?format=<fmt>`:
 
 ---
 
-*Generated: 2026-08-05 | Version: 1.0.0 | Authors: AI-Smart-Bug-Analyzer-And-Fix-Advisor Team*
+*Generated: 2026-08-05 | Version: 1.0.0 | Authors:  Creation of Intelligent Bug Diagnosis Platform With Fix Recommendation Assistance Team*
