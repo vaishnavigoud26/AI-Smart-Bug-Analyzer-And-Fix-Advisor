@@ -4,12 +4,12 @@
 
 ## Project Report
 
-**AI Smart Bug Analyzer & Fix Advisor (ASBA)**
+**Creation of Intelligent Bug Diagnosis Platform with Fix Recommendation Assistance**
 
 | Field | Details |
 |---|---|
 | **Project Title** | Creation of Intelligent Bug Diagnosis Platform with Fix Recommendation Assistance |
-| **System Name** | AI Smart Bug Analyzer & Fix Advisor (ASBA) |
+| **System Name** |Creation of Intelligent Bug Diagnosis Platform with Fix Recommendation Assistance|
 | **Date** | August 2026 |
 | **Version** | 2.0 |
 | **Tech Stack** | Python 3.11 · FastAPI · React 18 · LangChain · ChromaDB · SQLite |
@@ -31,7 +31,7 @@
 
 ### 1.1 Overview
 
-The **AI Smart Bug Analyzer & Fix Advisor (ASBA)** is an end-to-end, production-grade intelligent platform that automates the complete lifecycle of software bug diagnosis and remediation. The system accepts raw, unstructured bug reports — as pasted text or uploaded files — and produces structured, actionable intelligence including root cause analysis, fix suggestions, risk assessments, and executive summaries.
+The **Creation of Intelligent Bug Diagnosis Platform with Fix Recommendation Assistance** is an end-to-end, production-grade intelligent platform that automates the complete lifecycle of software bug diagnosis and remediation. The system accepts raw, unstructured bug reports — as pasted text or uploaded files — and produces structured, actionable intelligence including root cause analysis, fix suggestions, risk assessments, and executive summaries.
 
 The platform is powered by a **Directed Acyclic Graph (DAG) multi-agent architecture** orchestrated through LangChain and large language models (LLMs), combined with **Retrieval-Augmented Generation (RAG)** over a ChromaDB vector store. A **dual-engine model** ensures the system operates fully in offline mode via deterministic heuristic fallbacks when LLM APIs are unavailable.
 
@@ -231,7 +231,7 @@ erDiagram
 
 | Collection | Fields Stored | Purpose |
 |---|---|---|
-| ai_smart_bug_analyzer_and_fix_advisor_bugs | bug_id, content, component, priority | Duplicate detection and RAG context retrieval |
+| Creation_of_Intelligent_Bug_Diagnosis_Platform_with_Fix_Recommendation_Assistance_bugs | bug_id, content, component, priority | Duplicate detection and RAG context retrieval |
 | resolved_fixes | bug_id, fix_summary, timestamp | Remediation retrieval via KB feedback loop |
 
 ---
@@ -528,7 +528,7 @@ $$\text{Score} = 0.25 \cdot C_{\text{triage}} + 0.25 \cdot C_{\text{logs}} + 0.2
 
 **ChromaDB Collections:**
 
-- **ai_smart_bug_analyzer_and_fix_advisor_bugs** — The main knowledge base used for duplicate detection and RAG context
+- **Creation_of_Intelligent_Bug_Diagnosis_Platform_with_Fix_Recommendation_ Assistance_bugs** — The main knowledge base used for duplicate detection and RAG context
 - **resolved_fixes** — Fix embeddings submitted via the KB feedback endpoint for continuous learning
 
 ---
@@ -781,6 +781,6 @@ For a Payment Gateway Timeout bug, the system produces the following analysis:
 
 ---
 
-*Report prepared for: AI Smart Bug Analyzer & Fix Advisor — Creation of Intelligent Bug Diagnosis Platform with Fix Recommendation Assistance*
+*Report prepared for: Creation of Intelligent Bug Diagnosis Platform with Fix Recommendation Assistance*
 
 *Date: August 2026 | Version: 2.0*
